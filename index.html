@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>私藏之馆</title>
+	<link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<style type="text/css">
+	body{
+	background-color: rgb(51,51,51);
+}
+		.demo{  padding: 2em 0;}
+		a:hover,a:focus{
+		    outline: none;
+		    text-decoration: none;
+		}
+		.tab .nav-tabs{
+		    padding-left: 15px;
+		    border-bottom: 4px solid #333333;
+		}
+		.tab .nav-tabs li a{
+		    color: #919191;
+		    padding: 10px 20px;
+		    margin-right: 10px;
+		    background: #F8F8FF;
+		    text-shadow: 1px 1px 2px #919191;
+		    border: none;
+		    border-radius: 0;
+		    opacity: 0.5;
+		    position: relative;
+		    transition: all 0.3s ease 0s;
+		}
+		.tab .nav-tabs li a:hover{
+		    background: #919191;
+		    opacity: 0.8;
+		}
+		.tab .nav-tabs li.active a{
+		    opacity: 1;
+		}
+		.tab .nav-tabs li.active a,
+		.tab .nav-tabs li.active a:hover,
+		.tab .nav-tabs li.active a:focus{
+		    color: #000000;
+		    background: #F8F8FF;
+		    border: none;
+		    border-radius: 0;
+		}
+		.tab .nav-tabs li a:before,
+		.tab .nav-tabs li a:after{
+		    content: "";
+		    border-top: 42px solid transparent;
+		    position: absolute;
+		    top: -2px;
+		}
+		.tab .nav-tabs li a:before{
+		    border-right: 16px solid #F8F8FF;
+		    left: -15px;
+		}
+		.tab .nav-tabs li a:after{
+		    border-left: 16px solid #F8F8FF;
+		    right: -15px;
+		}
+		.tab .nav-tabs li a i,
+		.tab .nav-tabs li.active a i{
+		    display: inline-block;
+		    padding-right: 5px;
+		    font-size: 15px;
+		    text-shadow: none;
+		}
+		.tab .nav-tabs li a span{
+		    display: inline-block;
+		    font-size: 14px;
+		    letter-spacing: -9px;
+		    opacity: 0;
+		    transition: all 0.3s ease 0s;
+		}
+		.tab .nav-tabs li a:hover span,
+		.tab .nav-tabs li.active a span{
+		    letter-spacing: 1px;
+		    opacity: 1;
+		    transition: all 0.3s ease 0s;
+		}
+		.tab .tab-content{
+		    padding: 30px;
+		    background: ##333333;
+		    font-size: 16px;
+		    color: #000000;
+		    line-height: 25px;
+		}
+		.tab .tab-content h3{
+		    font-size: 24px;
+		    margin-top: 0;
+		}
+		@media only screen and (max-width: 479px){
+		    .tab .nav-tabs li{
+		        width: 100%;
+		        margin-bottom: 5px;
+		        text-align: center;
+		    }
+		    .tab .nav-tabs li a span{
+		        letter-spacing: 1px;
+		        opacity: 1;
+		    }
+		}
+	</style>
+</head>
+<body>
+
+		<div class="demo">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-md-offset-3 col-md-6">
+	                    <div class="tab" role="tabpanel">
+	                        <!-- Nav tabs -->
+	                        <ul class="nav nav-tabs" role="tablist">
+	                            <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-gitlab" aria-hidden="true"></i><span>导航</span></a></li>
+	                            <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-youtube-play" aria-hidden="true"></i><span>影视</span></a></li>
+	                            <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-envira" aria-hidden="true"></i><span>博客</span></a></li>	                            
+								<li role="presentation"><a href="#Section4" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-server" aria-hidden="true"></i><span>工具</span></a></li>
+								<li role="presentation"><a href="#Section5" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-magic" aria-hidden="true"></i><span>记录</span></a></li>
+								<li role="presentation"><a href="#Section6" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-pagelines" aria-hidden="true"></i><span>关于</span></a></li>
+	                        </ul>
+	                        <!-- Tab panes -->
+	                        <div class="tab-content tabs">
+	                            <div role="tabpanel" class="tab-pane fade in active" id="Section1">
+	                                <h5><a style="color:WhiteSmoke " href="http://guozhivip.com/nav/" target="_blank">果汁导航  上网从这里开始</a></h5>
+									<h5><a style="color:WhiteSmoke " href="https://tophub.today/" target="_blank">热榜导航 提供各站热榜聚合</a></h5>
+		                            <h5><a style="color:WhiteSmoke " href="http://lackk.com/nav/" target="_blank">兰客导航  收录创意及美的网站</a></h5>								
+									<h5><a style="color:WhiteSmoke " href="https://www.91sotu.com/" target="_blank">搜图导航  一款强大且智能的设计师导航</a></h5>
+									<h5><a style="color:WhiteSmoke " href="https://www.24kdh.com/" target="_blank">24k导航 专注全网优质网址、优质资源分享</a></h5>
+	                            </div>
+	                            <div role="tabpanel" class="tab-pane fade" id="Section2">
+									<h4><a style="color:red " target="_blank">建议使用夸克观看</a></h4>
+									<h5><a style="color:WhiteSmoke " href="https://www.lzystv.cn/" target="_blank">老子影院</a></h5>
+									<h5><a style="color:WhiteSmoke " href="http://www.wanmeikk.me/" target="_blank">完美看看</a></h5>
+									<h5><a style="color:WhiteSmoke " href="http://xijing.tv/" target="_blank">戏精影视</a></h5>
+									<h5><a style="color:WhiteSmoke " href="https://www.novipnoad.com/" target="_blank">追剧时光</a></h5>
+									<h5><a style="color:WhiteSmoke " href="http://1090ys1.com/" target="_blank">数字影视</a></h5>
+									<h5><a style="color:WhiteSmoke " href="http://www.xxmanmi.com/" target="_blank">小小漫迷</a></h5>
+	                            </div>
+	                            <div role="tabpanel" class="tab-pane fade" id="Section3">
+									<h5><a style="color:WhiteSmoke " href="http://www.misshcl.com/" target="_blank">盐酸小姐</a></h5>
+									<h5><a style="color:WhiteSmoke " href="http://www.misshcl.com/" target="_blank">没有人像我一样</a></h5>								
+									<h5><a style="color:WhiteSmoke " href="https://www.banxia.me/" target="_blank">半夏小栈</a></h5>
+									<h5><a style="color:WhiteSmoke " href="https://www.banxia.me/" target="_blank">小众文艺聚集地</a></h5>																							
+									<h5><a style="color:WhiteSmoke " href="https://www.mbcao.com/" target="_blank">李子白了</a></h5>
+									<h5><a style="color:WhiteSmoke " href="https://www.mbcao.com/" target="_blank">我们都在黑暗中寻找光明</a></h5>
+									<h5><a style="color:WhiteSmoke " href="https://www.lovexint.com/" target="_blank">洛小依</a></h5>
+									<h5><a style="color:WhiteSmoke " href="https://www.lovexint.com/" target="_blank">一个收藏回忆,分享技术的地方</a></h5>
+									<h5><a style="color:WhiteSmoke " href="https://gordonsky.cn/" target="_blank">戈登</a></h5>
+									<h5><a style="color:WhiteSmoke " href="https://gordonsky.cn/" target="_blank">原创文字,情感,致郁,音乐,Blog</a></h5>
+									<h5><a style="color:WhiteSmoke " href="https://www.liejiu.cc/" target="_blank">烈酒</a></h5>
+									<h5><a style="color:WhiteSmoke " href="https://www.liejiu.cc/" target="_blank">生活不只是眼前的苟且,还有诗和远方</a></h5>
+									<h5><a style="color:WhiteSmoke " href="https://isujin.com/" target="_blank">素锦</a></h5>
+									<h5><a style="color:WhiteSmoke " href="https://isujin.com/" target="_blank">世界上每个角落都有人过着相似的人生</a></h5>
+	                            </div>
+					            <div role="tabpanel" class="tab-pane fade" id="Section4">
+									<h5><a style="color:WhiteSmoke " href="https://996.icu/" target="_blank">996 工作上班制度</a></h5>
+									<h5><a style="color:WhiteSmoke " href="https://pdf.io/" target="_blank">PDF 文档线上工具</a></h5>
+									<h5><a style="color:WhiteSmoke " href="http://tool.liumingye.cn/music/" target="_blank">MyFreeMP3 下载Vip音乐</a></h5>
+									<h5><a style="color:WhiteSmoke " href="https://www.52doutu.cn/" target="_blank">斗图神器 表情包在线制作</a></h5>									
+									<h5><a style="color:WhiteSmoke " href="https://www.tool22.com/" target="_blank">兔二 一个很有范的工具合集</a></h5>								
+	                                <h5><a style="color:WhiteSmoke " href="http://www.timem.cn/" target="_blank">时光 Timem免费提供Api服务</a></h5>
+	                                <h5><a style="color:WhiteSmoke " href="https://web.woobx.cn/" target="_blank">木函 一个轻量级的效率工工具</a></h5>
+									<h5><a style="color:WhiteSmoke " href="https://cp.anyknew.com/" target="_blank">拷贝兔 轻量级纯Web跨平台文件、文字分享，阅后即焚工具</a></h5>
+	                            </div>
+								<div role="tabpanel" class="tab-pane fade" id="Section5">
+									<h5><a style="color:WhiteSmoke " >安徽卫视</a></h5>
+	                              	<video controls="controls" src="http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226223/1.m3u8" width="100%">
+                                    </video>
+									<h5><a style="color:WhiteSmoke " >湖南卫视</a></h5>
+	                              	<video controls="controls" src="http://39.134.135.28/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226241/1.m3u8?icpid=88888888&from=4&ocs=2_39.134.134.69_80&popid=4,6&hms_devid=2283&prioritypopid=4&vqe=3" width="100%">
+                                    </video>
+									<h5><a style="color:WhiteSmoke " >黎明</a></h5>
+	                              	<video controls="controls" src="http://1009.jilu8.cn/yk.php?id=lm" width="100%">
+                                    </video>
+									<h5><a style="color:WhiteSmoke " >张国荣</a></h5>
+	                              	<video controls="controls" src="http://1009.jilu8.cn/yk.php?id=zgr" width="100%">
+                                    </video>
+									<h5><a style="color:WhiteSmoke " >周润发</a></h5>
+	                              	<video controls="controls" src="http://1009.jilu8.cn/yk.php?id=zrf" width="100%">
+                                    </video> 
+									<h5><a style="color:WhiteSmoke " >周星驰</a></h5>
+	                              	<video controls="controls" src="http://1009.jilu8.cn/yk.php?id=zxc" width="100%">
+                                    </video>
+									<h5><a style="color:WhiteSmoke " >刘德华</a></h5>
+	                              	<video controls="controls" src="http://1009.jilu8.cn/yk.php?id=ldh2" width="100%">
+                                    </video> 
+	                            </div>
+								<div role="tabpanel" class="tab-pane fade" id="Section6">								
+	                                <h5><a style="color:red">经历了许多事，想了许久，最终决定留下这个域名，权当是我的一块自留地</a></h5>
+									<h5><a style="color:red">此域名失效时间：2999.99.99</a></h5>
+	                               <h5><a style="color:red">VX：New-Trial</a></h5>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	
+	
+	<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
